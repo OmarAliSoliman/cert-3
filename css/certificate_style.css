@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +9,16 @@
   src: url("../fonts/Thulth\ Bold.ttf");
 }
 #certificate {
-  /* width: 85%; */
+  /* width: 50%; */
   margin: 3% auto;
 }
 .certifate1_container {
   border-radius: 15px;
+  width: 50%;
+  margin: auto;
   height: 100%;
   padding-bottom: 70px;
-  padding-top: 20px;
+  padding-top: 190px;
   background-image: url(../image/certificate.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -64,21 +66,20 @@
 }
 .certifate1_container .certificate_text h1 {
   font-size: 6rem;
-  background: -webkit-linear-gradient(red, #333);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Reem Kufi", sans-serif;
+  /* background: -webkit-linear-gradient(red, #333); */
+  color: #000;
+  font-family: "Aref Ruqaa", serif;
+  margin-bottom: -20px;
+  margin-top: 20px;
 }
 .certifate1_container .certificate_text p {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   font-weight: 900;
   font-size: 24px;
-  color: #1c4161;
-  line-height: 1.2;
-  width: 66%;
+  color: #000;
+  /* line-height: 1.2; */
+  /* width: 66%; */
+  margin-left: 90px;
   font-family: "Amiri", serif;
 }
 .certifate1_container .certificate_text .input-group {
@@ -101,13 +102,13 @@
 
 .certifate1_container .certificate_text .input-group .the-name {
   font-family: "Amiri", serif;
-  color: #1c4161;
+  color: #000;
   font-weight: 900;
   line-height: 1.2;
 }
 
 .certifate1_container .certificate_text .Gratitude_text {
-  width: 42%;
+  width: 62% !important;
   font-size: 22px;
   padding: 15px 25px;
   margin-bottom: 12px;
@@ -248,11 +249,14 @@
     margin-left: 35%;
   }
   .certifate1_container .certificate_text {
-    margin-left: 7.9%;
+    margin-left: 3.9%;
     /* margin-top: 7px; */
   }
   .certifate1_container .certificate_title {
     margin-top: -110px;
+  }
+  .certifate1_container .certificate_text h1{
+    margin-right: 60px;
   }
 }
 
@@ -261,11 +265,18 @@
     margin-left: 35%;
   }
   .certifate1_container .certificate_text {
-    margin-left: 20.9%;
-    margin-top: 20px;
+    margin-left: 9.9%;
+    margin-top: 0;
+    padding-bottom: 40px;
   }
   .certifate1_container .certificate_title {
     margin-top: -110px;
+  }
+  .certifate1_container .certificate_text h1{
+    margin-right: 160px;
+  }
+  .certifate1_container .certificate_text .input-group .name_certificate_holder{
+    margin-right: 150px;
   }
 }
 
@@ -279,12 +290,18 @@
   .certifate1_container .Seal {
     right: 12%;
   }
+  .certifate1_container .certificate_text p{
+    margin-left: 66px;
+  }
 }
 
 @media (max-width: 800px) {
   .certifate1_container {
     /* margin-left: 7%; */
     padding-bottom: 150px;
+  }
+  .certifate1_container {
+    width: 90%;
   }
   .certifate1_container .certificate_title {
     margin-top: 83px;
@@ -302,35 +319,47 @@
     display: inline-block;
     margin: 5px;
     margin-top: 100px;
-
   }
   .certifate1_container {
     position: relative;
   }
-  .certifate1_container .certificate_logo{
+  .certifate1_container .certificate_logo {
     display: block;
   }
-  .certifate1_container .certificate_title{
+  .certifate1_container .certificate_title {
     margin-top: -180px;
   }
-  .certifate1_container .certificate_logo img:nth-child(3){
+  .certifate1_container .certificate_logo img:nth-child(3) {
     display: block;
     margin-top: 0;
   }
-  .certifate1_container .Signature{
+  .certifate1_container .Signature {
     margin-top: 0;
+  }
+  .certifate1_container .certificate_text p{
+    margin-left: 82px;
+  }
+  .certifate1_container .certificate_text h1{
+    margin-right: 60px;
+  }
+  .certifate1_container .certificate_text .input-group .name_certificate_holder{
+    margin-right: 60px;
   }
 }
 
 @media (max-width: 524px) {
   #certificate {
-    width: 95%;
+    width: 100%;
+  }
+  .certifate1_container {
+    width: 100%;
   }
   .certifate1_container .certificate_text h1 {
     font-size: 4rem;
   }
   .certifate1_container .certificate_text p {
     width: 86%;
+    margin-left: 50px;
   }
 
   .certifate1_container
@@ -352,7 +381,7 @@
     margin-top: 5px;
     display: block;
   }
-  .certifate1_container .certificate_logo{
+  .certifate1_container .certificate_logo {
     margin-left: 9%;
     margin-top: 120px;
   }
@@ -365,21 +394,30 @@
   .certifate1_container .certificate_text {
     margin-left: 0;
   }
-  .certifate1_container .certificate_title p{
+  .certifate1_container .certificate_title p {
     margin-right: 30px;
   }
-  .certifate1_container .certificate_text{
+  .certifate1_container .certificate_text {
     display: block;
     width: 90%;
     margin: auto;
   }
-  .certifate1_container .Signature{
+  .certifate1_container .Signature {
     margin-left: 0;
     text-align: center;
   }
-  .certifate1_container .Seal{
+  .certifate1_container .Seal {
     position: unset;
     margin-left: 80px;
+  }
+  .certifate1_container{
+    padding-bottom: 77px;
+  }
+  .certifate1_container .certificate_text h1{
+    margin-right: 10px;
+  }
+  .certifate1_container .certificate_text .input-group .name_certificate_holder{
+    margin-right: 10px;
   }
 }
 
@@ -418,7 +456,11 @@
   }
   .certifate1_container .certificate_text h1 {
     font-size: 4rem;
-  } 
+  }
+  .certifate1_container .certificate_text .Gratitude_text{
+    width: 71% !important;
+    margin-left: 40px;
+  }
 }
 
 @media (max-width: 321px) {
